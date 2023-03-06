@@ -1,0 +1,24 @@
+[package]
+name = "common_modules"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.3.0"
+async-nats = "0.27.0"
+chrono = { version = "0.4.23", features = ["serde"] }
+futures = "0.3.25"
+jsonwebtoken = "8.2.0"
+mime = "0.3.16"
+mockall = "0.11.3"
+mockall_double = "0.3.0"
+nats = "0.23.1"
+prost = "0.11.5"
+sea-orm = "0.11.0"
+serde = { version = "1.0.148", features = ["derive"] }
+serde_json = "1.0.91"
+tokio = { version = "1.23.0", features = ["full"] }
+tonic = "0.8.3"
+uuid = { version = "1.2.2", features = ["v4", "serde"] }
